@@ -119,11 +119,11 @@
 	}
 
 	// OPEN STATE
-	&:target {
+	&.active {
 		visibility: visible;
 		opacity: 1;
 	}
-	&:target &__content {
+	&.active &__content {
 		opacity: 1;
 		transform: scale(1) translate(-50%, -50%);
 	}

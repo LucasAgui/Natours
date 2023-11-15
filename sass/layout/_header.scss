@@ -6,7 +6,7 @@
 			rgba($color-primary-light, 0.8),
 			rgba($color-primary-dark, 0.8)
 		),
-		url(../img/hero-small.jpg);
+		url(../src/media/img/hero-small.jpg);
 	background-size: cover;
 	background-position: top;
 
@@ -24,7 +24,7 @@
 				rgba($color-secondary-light, 0.8),
 				rgba($color-secondary-dark, 0.8)
 			),
-			url(../img/hero.jpg);
+			url(../src/media/img/hero.jpg);
 	}
 
 	@include respond(phone) {
@@ -46,5 +46,6 @@
 		left: 50%;
 		transform: translate(-50%, -50%);
 		text-align: center;
+		width: 80%;
 	}
 }
