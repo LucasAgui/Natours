@@ -1,10 +1,10 @@
 # Natoure
 
-Este proyecto es una landing page con funcionalidades limitadas que he construido como práctica del curso de CSS y SASS Avanzado de Jonas Schmedtmann.
+Este proyecto es una landing page con funcionalidades limitadas que he construido como práctica del curso de [CSS y SASS Avanzado](https://www.udemy.com/certificate/UC-6aa07122-883f-4e7e-9cef-b6681c336137/) de [Jonas Schmedtmann](https://www.udemy.com/user/jonasschmedtmann/).
 
 No contiene React en absoluto y me base en [7/1 PATTERN de SASS](https://sass-guidelin.es/es/) para crear las carpetas con los archivos SASS.
 
-Es el enfoque que se le dio en el curso para escribir SASS sano, sostenible y escalable
+Es el enfoque que se le dio en el curso para escribir SASS sano, sostenible y escalable.
 
 ## Instalar dependencias
 
