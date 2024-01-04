@@ -186,7 +186,7 @@ body {
   position: fixed;
   right: 1%;
   bottom: 1%;
-  z-index: 50; }
+  z-index: 600; }
   .flags__button {
     pointer-events: none;
     visibility: hidden;
@@ -194,30 +194,41 @@ body {
     border: none;
     background: none;
     transition: 0.3s all; }
+    .flags__button:focus {
+      outline: none;
+      box-shadow: 0 0 0 0.4rem #55c57a !important; }
   .flags__item {
     display: flex;
     align-items: center;
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 9px;
-    transition: all 0.2s; }
+    transition: all 0.2s;
+    height: 5rem;
+    background-color: #28b485; }
     .flags__item:hover {
-      background-color: rgba(0, 0, 0, 0.3); }
+      background-color: #55c57a; }
   .flags__img {
-    height: 2rem;
-    border-radius: 3px; }
+    display: block;
+    height: 3rem;
+    border-radius: 5px; }
   .flags__row {
     display: inline-block;
-    fill: #000;
-    width: 4rem;
-    height: 4rem;
-    transform: translateX(-10%);
+    fill: #fff;
+    width: 5rem;
+    height: 5rem;
+    transform: translateX(-30%);
     transition: all 0.3s; }
   .flags__link {
-    display: inline-block;
+    display: flex;
+    align-items: center;
     justify-self: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
     padding: 0.5rem; }
+    @media only screen and (max-width: 37.5em) {
+      .flags__link {
+        padding: 0.5rem 1rem; } }
 
 .open .flags__button {
   opacity: 1;
@@ -232,10 +243,10 @@ body {
   cursor: pointer; }
 
 .open .flags__row {
-  transform: translateX(-10%) rotate(180deg); }
+  transform: translateX(-30%) rotate(180deg); }
 
 .active .flags__img {
-  height: 2rem; }
+  height: 3rem; }
 
 .flags__button.active {
   pointer-events: initial;
